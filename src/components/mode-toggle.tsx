@@ -15,7 +15,7 @@ export function ModeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="w-fit">
+        <Button variant="outline">
           <h1>Toogle theme</h1>
         </Button>
       </DropdownMenuTrigger>
