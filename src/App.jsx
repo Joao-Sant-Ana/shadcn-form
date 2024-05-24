@@ -18,7 +18,7 @@ export default function App () {
     
     return (
 
-        <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
+        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
             <header className="w-full h-12 py-12 pr-8 flex items-center justify-end">
                 <ModeToggle />
             </header>
